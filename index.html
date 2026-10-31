@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escuela Superior de Inteligencia Artificial</title>
+  <meta name="description" content="Plataforma de formación en inteligencia artificial. Acceso con contraseña.">
+  <meta name="theme-color" content="#242527">
+  <link rel="icon" href="assets/favicon.png?v=5" type="image/png">
+  <!-- Vista previa al compartir (WhatsApp, Telegram, redes). Si cambia la dirección web, actualiza las URLs de abajo. -->
+  <link rel="canonical" href="https://paumartifelip-cpu.github.io/escuelasuperioria/">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=5">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ESIA">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:title" content="Escuela Superior de Inteligencia Artificial">
+  <meta property="og:description" content="Formación profesional en inteligencia artificial, a tu ritmo.">
+  <meta property="og:url" content="https://paumartifelip-cpu.github.io/escuelasuperioria/">
+  <meta property="og:image" content="https://paumartifelip-cpu.github.io/escuelasuperioria/assets/og-image.png?v=5">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo de la Escuela Superior de Inteligencia Artificial">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Escuela Superior de Inteligencia Artificial">
+  <meta name="twitter:description" content="Formación profesional en inteligencia artificial, a tu ritmo.">
+  <meta name="twitter:image" content="https://paumartifelip-cpu.github.io/escuelasuperioria/assets/og-image.png?v=5">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/redirect.js"></script>
+  <script src="js/theme.js"></script>
+</head>
+<body class="intro-page">
+  <main class="intro">
+    <button id="theme-btn" class="switch intro-theme" type="button" role="switch" aria-checked="false" aria-label="Modo oscuro"><span class="switch-knob" aria-hidden="true"></span></button>
+
+    <section class="intro-card" aria-labelledby="intro-title">
+      <div class="intro-aside">
+        <div class="brand">
+          <img class="brand-logo" src="assets/logo.png?v=5" alt="" width="40" height="40">
+          <span class="brand-text">ESIA</span>
+        </div>
+        <div>
+          <h1 id="intro-title">Escuela Superior de Inteligencia Artificial</h1>
+          <p class="lead">Formación profesional en inteligencia artificial, a tu ritmo.</p>
+          <p class="intro-price"><span>Precio</span> <strong>290 €</strong></p>
+                  </div>
+        <ul class="intro-points">
+          <li>Cursos organizados por módulos</li>
+          <li>Seguimiento de tu progreso</li>
+          <li>Contenido siempre disponible</li>
+        </ul>
+      </div>
+
+      <div class="intro-main">
+        <h2>Acceso al campus</h2>
+        <p class="intro-note">Introduce tu contraseña para continuar.</p>
+
+        <form id="gate-form" class="gate" autocomplete="off" novalidate>
+          <label for="password">Contraseña</label>
+          <div class="gate-field">
+            <input id="password" name="password" type="password"
+                   autocomplete="current-password" aria-describedby="gate-error" required autofocus>
+            <button type="button" id="toggle-pass" class="gate-toggle" aria-label="Mostrar contraseña">Mostrar</button>
+          </div>
+          <p id="gate-error" class="gate-error" role="alert" hidden></p>
+          <button type="submit" class="btn btn-primary btn-block">Acceder</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="info" aria-labelledby="inside-title">
+      <p class="eyebrow">El programa</p>
+      <h2 id="inside-title" class="info-title">Qué encontrarás dentro</h2>
+      <p class="info-lead">Una ruta completa en vídeo, de principiante a avanzado, organizada en cursos y módulos.</p>
+      <dl id="program-stats" class="program-stats"></dl>
+      <ol id="program-list" class="program-list"></ol>
+      <ul class="includes">
+        <li><strong>Lecciones en vídeo</strong><span>Explicaciones paso a paso, para verlas cuando quieras.</span></li>
+        <li><strong>Ruta ordenada</strong><span>Cada curso se apoya en el anterior: sabes siempre qué toca después.</span></li>
+        <li><strong>Seguimiento de progreso</strong><span>Marca lo que ya viste y retoma donde lo dejaste.</span></li>
+        <li><strong>Acceso permanente</strong><span>El contenido sigue disponible para repasar cuando lo necesites.</span></li>
+      </ul>
+    </section>
+
+    <section class="info" aria-labelledby="change-title">
+      <p class="eyebrow">Tu transformación</p>
+      <h2 id="change-title" class="info-title">De usar la IA a trabajar con ella</h2>
+      <p class="info-lead">Al terminar el programa no solo sabrás qué es la inteligencia artificial: la tendrás trabajando para ti.</p>
+      <div class="change-head" aria-hidden="true"><span>Hoy</span><span>Al terminar</span></div>
+      <ul class="change-list">
+        <li><p><span class="change-label">Hoy</span>Usas la IA como un buscador y no sabes cuándo fiarte de lo que dice.</p>
+            <p><span class="change-label">Al terminar</span>Le das instrucciones precisas y detectas cuándo se equivoca.</p></li>
+        <li><p><span class="change-label">Hoy</span>Haces a mano tareas repetitivas que te roban horas cada semana.</p>
+            <p><span class="change-label">Al terminar</span>Delegas esas tareas en asistentes y agentes que trabajan mientras duermes.</p></li>
+        <li><p><span class="change-label">Hoy</span>Dependes de otros para crear imágenes, vídeos o presentaciones.</p>
+            <p><span class="change-label">Al terminar</span>Creas tú mismo contenido visual profesional para tu marca o tu negocio.</p></li>
+        <li><p><span class="change-label">Hoy</span>Tienes ideas de apps o webs, pero necesitas un programador.</p>
+            <p><span class="change-label">Al terminar</span>Construyes y publicas tus propias aplicaciones, sin depender de nadie.</p></li>
+      </ul>
+      <div class="checkout" id="checkout">
+        <div class="co-summary">
+          <p class="eyebrow">Escuela Superior de IA</p>
+          <h3 class="co-name">Programa completo</h3>
+          <p class="co-sub">Cuatro cursos, de cero a crear tus propias apps. Acceso permanente.</p>
+          <p class="co-price"><span id="co-total">290,00 €</span></p>
+          <dl class="co-lines">
+            <div><dt>Programa completo</dt><dd id="co-sub">290,00 €</dd></div>
+            <div id="co-disc-row" hidden><dt id="co-disc-label">Cupón</dt><dd id="co-disc">-280,10 €</dd></div>
+            <div class="co-total-row"><dt>Total a pagar hoy</dt><dd id="co-total2">290,00 €</dd></div>
+          </dl>
+        </div>
+        <div class="co-pay">
+          <h3>Paga más fácil</h3>
+          <form id="co-coupon" class="co-coupon" novalidate>
+            <label for="co-code">Código promocional</label>
+            <div class="co-coupon-row">
+              <input id="co-code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Añadir código">
+              <button type="submit" class="btn co-apply">Aplicar</button>
+            </div>
+            <p id="co-msg" class="co-msg" role="status" hidden></p>
+          </form>
+          <div class="co-methods">
+            <button type="button" class="co-btn co-stripe" data-method="stripe">Pagar con tarjeta · Stripe</button>
+            <button type="button" class="co-btn co-bizum" data-method="bizum">Pagar con Bizum</button>
+          </div>
+          <p id="co-pay-msg" class="co-msg" role="status" hidden></p>
+          <p class="co-secure">Pago seguro. Tras pagar recibirás tu contraseña de acceso.</p>
+          <a class="co-already" href="#password">¿Ya tienes contraseña? Acceder al campus</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="intro-foot">© <span id="year"></span> Escuela Superior de Inteligencia Artificial</footer>
+  </main>
+
+  <script src="js/auth.js"></script>
+  <script src="js/gate.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/landing.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>
