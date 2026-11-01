@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>¡Bienvenido! · ESIA</title>
+  <link rel="icon" href="assets/favicon.png?v=5" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="intro-page">
+  <main class="intro">
+    <section class="welcome">
+      <img class="brand-logo" src="assets/logo.png?v=5" alt="" width="56" height="56">
+      <h1>¡Pago completado, bienvenido!</h1>
+      <p class="welcome-lead">Ya tienes acceso de por vida a la Escuela Superior de Inteligencia Artificial.</p>
+
+      <div class="welcome-box">
+        <p class="eyebrow">Tu contraseña de acceso</p>
+        <p class="welcome-pass" id="pass">4cckwnbafumxxd3zx4z5</p>
+        <button type="button" class="btn btn-primary" id="copy">Copiar contraseña</button>
+      </div>
+
+      <div class="welcome-steps">
+        <p><strong>Guárdala ahora.</strong> Haz una captura o cópiala en tus notas.</p>
+        <p><strong>Para volver a entrar</strong> en cualquier momento, ve a <strong>escuelasuperioria.com</strong>, escribe esta contraseña y pulsa "Acceder".</p>
+        <p>No la compartas: es solo para ti.</p>
+      </div>
+
+      <a class="btn btn-primary welcome-cta" href="index.html">Entrar al campus</a>
+    </section>
+  </main>
+  <script>
+    document.getElementById('copy').addEventListener('click', function () {
+      var b = this, el = document.getElementById('pass');
+      (navigator.clipboard ? navigator.clipboard.writeText(el.textContent) : Promise.reject()).then(function () {
+        b.textContent = '¡Copiada!';
+      }, function () {
+        var r = document.createRange(); r.selectNodeContents(el);
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selecciónala y cópiala';
+      });
+    });
+  </script>
+</body>
+</html>
