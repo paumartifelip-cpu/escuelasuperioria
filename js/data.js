@@ -179,6 +179,12 @@ window.ESIA_COURSES = [
           { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
           { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' }
         ]
+      },
+      {
+        id: 'n3', title: 'Consigue clientes',
+        videos: [
+          { id: '9RpTC1mE2mw', title: 'Cómo extraer clientes de Google Maps con Apify (paso a paso)' }
+        ]
       }
     ]
   },
