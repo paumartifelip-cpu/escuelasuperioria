@@ -75,7 +75,7 @@ window.ESIA_COURSES = [
         id: 'i3', title: 'Google Pics y Canva',
         videos: [
           { id: 'xC7ZL1qYMic', title: 'Google Pics: 5 cosas que hace y ni Canva puede' },
-          { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con Gemini Spark mediante MCP' }
+          { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con las tareas de Gemini mediante MCP' }
         ]
       }
     ]
@@ -138,28 +138,28 @@ window.ESIA_COURSES = [
     ]
   },
   {
-    id: 'spark', emoji: '🔷', level: 'Intermedio', title: 'Gemini Spark: tu agente que trabaja por ti',
-    desc: 'Configura Gemini Spark, enséñale y deja que trabaje mientras duermes.',
+    id: 'spark', emoji: '🔷', level: 'Intermedio', title: 'Tareas de Gemini: tu agente que trabaja por ti',
+    desc: 'Configura las tareas de Gemini, enséñales y deja que trabajen mientras duermes.',
     modules: [
       {
-        id: 'p1', title: 'Empieza con Gemini Spark',
+        id: 'p1', title: 'Empieza con las tareas de Gemini',
         videos: [
-          { id: 'NTf2-xKYqtM', title: 'Qué es Gemini Spark' },
-          { id: 'BUJVUaMofYQ', title: 'Cómo configurar Gemini Spark' }
+          { id: 'NTf2-xKYqtM', title: 'Qué son las tareas de Gemini' },
+          { id: 'BUJVUaMofYQ', title: 'Cómo configurar las tareas de Gemini' }
         ]
       },
       {
         id: 'p2', title: 'Instrucciones y skills',
         videos: [
-          { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a Gemini Spark' },
+          { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a las tareas de Gemini' },
           { id: '2TCVcFndXA4', title: 'Qué son las Habilidades de Google Gemini (Skills)' },
-          { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en Gemini Spark' }
+          { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en las tareas de Gemini' }
         ]
       },
       {
         id: 'p3', title: 'Que trabaje mientras duermes',
         videos: [
-          { id: 'aIWWm1rwXd4', title: 'Cómo hacer que Gemini Spark trabaje mientras duermes' }
+          { id: 'aIWWm1rwXd4', title: 'Cómo hacer que las tareas de Gemini trabajen mientras duermes' }
         ]
       }
     ]
@@ -171,7 +171,7 @@ window.ESIA_COURSES = [
       {
         id: 'n1', title: 'Contenido para redes',
         videos: [
-          { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini Spark para crear contenido' },
+          { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini para crear contenido' },
           { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' },
           { id: '-0VxlkmW0-Q', title: '¿No sabes qué contenido crear? Empieza por aquí' }
         ]
@@ -180,7 +180,7 @@ window.ESIA_COURSES = [
         id: 'n2', title: 'Aplica la IA a tu negocio',
         videos: [
           { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
-          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' },
+          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini para ayudarte a ganar dinero' },
           { id: 'ogNwbm6NFRk', title: 'Convierte una lista aburrida en una máquina que trabaja por ti (Excel + IA)' }
         ]
       },
