@@ -20,7 +20,7 @@
       m.videos.forEach(function (v) {
         n += 1;
         var item = {
-          id: v.id, title: v.title, n: n,
+          id: v.id, title: v.title, note: v.note, n: n,
           moduleId: m.id, moduleN: m.n, moduleTitle: m.title,
           courseId: c.id, courseTitle: c.title
         };
@@ -343,6 +343,7 @@
       el('div', { class: 'player' }, [iframe]),
       el('p', { class: 'eyebrow', text: 'Curso ' + c.n + ' · ' + c.title + ' · Módulo ' + v.moduleN + ': ' + v.moduleTitle }),
       el('h1', { class: 'watch-title', text: v.title }),
+      v.note ? el('p', { class: 'watch-note', text: v.note }) : null,
       el('p', { class: 'lesson-sub', text: 'Lección ' + v.n + ' de ' + c.videos.length }),
       el('div', { class: 'watch-actions' }, [
         completeBtn, seenBtn,

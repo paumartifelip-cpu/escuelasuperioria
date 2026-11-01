@@ -75,7 +75,7 @@ window.ESIA_COURSES = [
         id: 'i3', title: 'Google Pics y Canva',
         videos: [
           { id: 'xC7ZL1qYMic', title: 'Google Pics: 5 cosas que hace y ni Canva puede' },
-          { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con las tareas de Gemini mediante MCP' }
+          { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con las tareas de Gemini mediante MCP (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' }
         ]
       }
     ]
@@ -138,28 +138,28 @@ window.ESIA_COURSES = [
     ]
   },
   {
-    id: 'spark', emoji: '🔷', level: 'Intermedio', title: 'Tareas de Gemini: tu agente que trabaja por ti',
-    desc: 'Configura las tareas de Gemini, enséñales y deja que trabajen mientras duermes.',
+    id: 'spark', emoji: '🔷', level: 'Intermedio', title: 'Tareas de Gemini (antes Spark): tu agente que trabaja por ti',
+    desc: 'Antes llamado Gemini Spark, ahora son Tareas y se usan desde la misma caja de texto de Google Gemini. Configúralas, enséñales y deja que trabajen mientras duermes.',
     modules: [
       {
         id: 'p1', title: 'Empieza con las tareas de Gemini',
         videos: [
-          { id: 'NTf2-xKYqtM', title: 'Qué son las tareas de Gemini' },
-          { id: 'BUJVUaMofYQ', title: 'Cómo configurar las tareas de Gemini' }
+          { id: 'NTf2-xKYqtM', title: 'Qué son las tareas de Gemini (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' },
+          { id: 'BUJVUaMofYQ', title: 'Cómo configurar las tareas de Gemini (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' }
         ]
       },
       {
         id: 'p2', title: 'Instrucciones y skills',
         videos: [
-          { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a las tareas de Gemini' },
+          { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a las tareas de Gemini (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' },
           { id: '2TCVcFndXA4', title: 'Qué son las Habilidades de Google Gemini (Skills)' },
-          { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en las tareas de Gemini' }
+          { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en las tareas de Gemini (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' }
         ]
       },
       {
         id: 'p3', title: 'Que trabaje mientras duermes',
         videos: [
-          { id: 'aIWWm1rwXd4', title: 'Cómo hacer que las tareas de Gemini trabajen mientras duermes' }
+          { id: 'aIWWm1rwXd4', title: 'Cómo hacer que las tareas de Gemini trabajen mientras duermes (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' }
         ]
       }
     ]
@@ -171,7 +171,7 @@ window.ESIA_COURSES = [
       {
         id: 'n1', title: 'Contenido para redes',
         videos: [
-          { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini para crear contenido' },
+          { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini para crear contenido (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' },
           { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' },
           { id: '-0VxlkmW0-Q', title: '¿No sabes qué contenido crear? Empieza por aquí' }
         ]
@@ -180,7 +180,7 @@ window.ESIA_COURSES = [
         id: 'n2', title: 'Aplica la IA a tu negocio',
         videos: [
           { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
-          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini para ayudarte a ganar dinero' },
+          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini para ayudarte a ganar dinero (antes Spark)', note: 'Antes esta herramienta se llamaba Gemini Spark. Ahora son «Tareas» y se usan desde la misma caja de texto de Google Gemini.' },
           { id: 'ogNwbm6NFRk', title: 'Convierte una lista aburrida en una máquina que trabaja por ti (Excel + IA)' }
         ]
       },
