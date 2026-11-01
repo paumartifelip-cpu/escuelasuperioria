@@ -244,6 +244,14 @@ window.ESIA_COURSES = [
           { id: 't70mgVTdYkk', title: 'Si para ganar más necesitas más empleados, tu negocio está muerto' },
           { id: 'uu61LEF8yGQ', title: 'Por qué todo se acelera cuando llegas a 100.000 €' }
         ]
+      },
+      {
+        id: 'f4', title: 'Apalancamiento y sistemas',
+        videos: [
+          { id: '26EKYpzgkJM', title: 'Apalancamiento' },
+          { id: '_nYkBSqfQ_A', title: 'Libertad financiera: cómo crear un sistema que genere ingresos por ti' },
+          { id: 'BPUQPyUXMqA', title: 'Si repites las mismas tareas cada día, estás trabajando mal' }
+        ]
       }
     ]
   },
