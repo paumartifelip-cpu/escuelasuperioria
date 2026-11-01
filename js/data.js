@@ -152,6 +152,7 @@ window.ESIA_COURSES = [
         id: 'p2', title: 'Instrucciones y skills',
         videos: [
           { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a Gemini Spark' },
+          { id: '2TCVcFndXA4', title: 'Qué son las Habilidades de Google Gemini (Skills)' },
           { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en Gemini Spark' }
         ]
       },
