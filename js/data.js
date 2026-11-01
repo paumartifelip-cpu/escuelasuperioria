@@ -172,7 +172,8 @@ window.ESIA_COURSES = [
         id: 'n1', title: 'Contenido para redes',
         videos: [
           { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini Spark para crear contenido' },
-          { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' }
+          { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' },
+          { id: '-0VxlkmW0-Q', title: '¿No sabes qué contenido crear? Empieza por aquí' }
         ]
       },
       {
@@ -187,8 +188,61 @@ window.ESIA_COURSES = [
         id: 'n3', title: 'Consigue clientes',
         videos: [
           { id: '9RpTC1mE2mw', title: 'Cómo extraer clientes de Google Maps con Apify (paso a paso)' },
-          { id: 'HFnGVXsoNe0', title: 'Cómo aparecer en el nuevo Google con IA (2026)' },
+          { id: 'HFnGVXsoNe0', title: 'Cómo aparecer en el nuevo Google con IA (2026)' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'ventas', emoji: '🧲', level: 'Intermedio', title: 'Vende más: la psicología de las ventas',
+    desc: 'Por qué la gente compra (o no) y cómo usarlo para vender más y protegerte de la competencia.',
+    modules: [
+      {
+        id: 's1', title: 'Por qué no te compran',
+        videos: [
+          { id: 'SuapZ9qWNno', title: 'La razón por la que nadie te compra (aunque tu producto sea bueno)' },
           { id: '6ySQmoHw58g', title: 'El error que te hace parecer un loco cuando intentas vender' }
+        ]
+      },
+      {
+        id: 's2', title: 'Cómo decide el cliente',
+        videos: [
+          { id: 'LIuc6esQ83Q', title: 'Este truco hace que compres aunque no quieras' },
+          { id: 'xG8lSj3VFbY', title: 'Todos somos ovejas: el hack de ventas que tu cerebro no puede evitar' },
+          { id: 'D5qgFZGS2nE', title: 'Tu cerebro odia perder dinero (y las marcas lo saben)' }
+        ]
+      },
+      {
+        id: 's3', title: 'Protege tu negocio',
+        videos: [
+          { id: 'jACAI8W2Vbo', title: '3 simples pasos para eliminar a tu competencia' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'libertad', emoji: '💎', level: 'Intermedio', title: 'Libertad financiera y negocio escalable',
+    desc: 'Entiende el dinero, las deudas y cómo hacer crecer tu negocio sin trabajar más horas.',
+    modules: [
+      {
+        id: 'f1', title: 'Entiende el dinero',
+        videos: [
+          { id: '_F3URYD5tJU', title: 'Te han mentido sobre las deudas (no todas son malas)' },
+          { id: 'Mh8M7UNEeZM', title: 'La regla de las dos neveras decide tu libertad económica' }
+        ]
+      },
+      {
+        id: 'f2', title: 'Tu tiempo y tu valor',
+        videos: [
+          { id: 'tyms3E4MkUI', title: 'Te han mentido sobre el valor de tu trabajo (así serás valioso en 2026)' },
+          { id: 'KAivnql9-GM', title: 'Cada vez que dices sí, estás arruinando algo que nunca llegarás a ver' }
+        ]
+      },
+      {
+        id: 'f3', title: 'Escala tu negocio',
+        videos: [
+          { id: 't70mgVTdYkk', title: 'Si para ganar más necesitas más empleados, tu negocio está muerto' },
+          { id: 'uu61LEF8yGQ', title: 'Por qué todo se acelera cuando llegas a 100.000 €' }
         ]
       }
     ]
