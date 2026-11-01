@@ -5,7 +5,7 @@
 window.ESIA_COURSES = [
   {
     id: 'bases', emoji: '🌱', level: 'Principiante', title: 'Empieza con la IA',
-    desc: 'Pierde el miedo a la IA: cómo hablarle, crear asistentes y estudiar con ella.',
+    desc: 'Pierde el miedo a la IA: qué es, cómo funciona y cómo hablarle para que te responda bien.',
     modules: [
       {
         id: 'b1', title: 'Primeros pasos',
@@ -25,97 +25,111 @@ window.ESIA_COURSES = [
         videos: [
           { id: 'XlvR6JTRuKo', title: 'Fundamentos del prompt engineering' }
         ]
-      },
+      }
+    ]
+  },
+  {
+    id: 'asistentes', emoji: '🧠', level: 'Principiante', title: 'Tu asistente e investigador con IA',
+    desc: 'Crea asistentes a tu medida, estudia e investiga con IA y conoce las herramientas de Google.',
+    modules: [
       {
-        id: 'b4', title: 'Crea tus asistentes',
+        id: 's1', title: 'Crea tus asistentes',
         videos: [
           { id: 'fvG6tuNeAdI', title: 'Asistentes de IA y Gems' }
         ]
       },
       {
-        id: 'b5', title: 'Investiga y estudia con IA',
+        id: 's2', title: 'Investiga y estudia con IA',
         videos: [
           { id: 'pVxRXpbw1I0', title: 'Investigación en NotebookLM' }
         ]
-      }
-    ]
-  },
-  {
-    id: 'google', emoji: '🔷', level: 'Intermedio', title: 'IA de Google para trabajar menos y crear más',
-    desc: 'Domina Gemini Spark y las herramientas de Google para automatizar tu trabajo y tu negocio.',
-    modules: [
+      },
       {
-        id: 'g1', title: 'Conoce las herramientas de Google',
+        id: 's3', title: 'Conoce las herramientas de Google',
         videos: [
           { id: 'F3W5Twru-OQ', title: 'Google AI Studio: las IA de Google en un lugar' },
           { id: 'UGXuPonOrTQ', title: 'Nuevo Google Gemini Notebook: todo lo nuevo' }
         ]
-      },
+      }
+    ]
+  },
+  {
+    id: 'imagenes', emoji: '🖼️', level: 'Intermedio', title: 'Crea imágenes con IA',
+    desc: 'Imágenes, iconos y diseños profesionales sin saber diseñar.',
+    modules: [
       {
-        id: 'g2', title: 'Empieza con Gemini Spark',
+        id: 'i1', title: 'Imágenes con Nano Banana',
         videos: [
-          { id: 'NTf2-xKYqtM', title: 'Qué es Gemini Spark' },
-          { id: 'BUJVUaMofYQ', title: 'Cómo configurar Gemini Spark' }
+          { id: 'qM7QGMTSTCw', title: 'Crea imágenes con Nano Banana' },
+          { id: 'zIsRjcE0mrA', title: 'Google Nano Banana: modelos y trucos' }
         ]
       },
       {
-        id: 'g3', title: 'Enseña a Spark a trabajar contigo',
+        id: 'i2', title: 'Estilo propio e iconos',
         videos: [
-          { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a Gemini Spark' },
-          { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en Gemini Spark' },
-          { id: 'aIWWm1rwXd4', title: 'Cómo hacer que Gemini Spark trabaje mientras duermes' }
+          { id: '-9G0HDHUq_o', title: 'Crea imágenes del mismo estilo y iconos con Recraft' }
         ]
       },
       {
-        id: 'g4', title: 'Imágenes y diseño con Google',
+        id: 'i3', title: 'Google Pics y Canva',
         videos: [
-          { id: 'zIsRjcE0mrA', title: 'Google Nano Banana: modelos y trucos' },
           { id: 'xC7ZL1qYMic', title: 'Google Pics: 5 cosas que hace y ni Canva puede' },
           { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con Gemini Spark mediante MCP' }
-        ]
-      },
-      {
-        id: 'g5', title: 'Contenido para redes',
-        videos: [
-          { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini Spark para crear contenido' },
-          { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' }
-        ]
-      },
-      {
-        id: 'g6', title: 'Aplica la IA a tu negocio',
-        videos: [
-          { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
-          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' }
         ]
       }
     ]
   },
   {
-    id: 'visual', emoji: '🎨', level: 'Intermedio', title: 'Crea contenido visual con IA',
-    desc: 'Imágenes, avatares, vídeo y presentaciones profesionales, paso a paso.',
+    id: 'video', emoji: '🎬', level: 'Intermedio', title: 'Crea vídeos con IA',
+    desc: 'De tu primera escena a vídeos completos: herramientas, modelos y trucos, sin cámara.',
     modules: [
       {
-        id: 'v1', title: 'Imágenes',
-        videos: [
-          { id: 'qM7QGMTSTCw', title: 'Crea imágenes con Nano Banana' },
-          { id: '-9G0HDHUq_o', title: 'Crea imágenes del mismo estilo y iconos con Recraft' }
-        ]
-      },
-      {
-        id: 'v2', title: 'Avatares',
-        videos: [
-          { id: 'JHcJWzERWJM', title: 'Crea avatares con HeyGen' }
-        ]
-      },
-      {
-        id: 'v3', title: 'Vídeo con las herramientas de Google',
+        id: 'v1', title: 'Vídeo con las herramientas de Google',
         videos: [
           { id: 'QO3MIleJ0Yo', title: 'Aprende a usar Flow con Veo 3' },
           { id: 'XTGB8muRWFM', title: 'Google Vids, editor de vídeo: crea vídeos para tu negocio' }
         ]
       },
       {
-        id: 'v4', title: 'Presentaciones',
+        id: 'v2', title: 'Higgsfield Katana',
+        videos: [
+          { id: 'g1dEqF_FAf8', title: 'Qué es Higgsfield Katana y cómo usarlo' }
+        ]
+      },
+      {
+        id: 'v3', title: 'Elige el mejor modelo de vídeo',
+        videos: [
+          { id: '5eKLC5kDNxk', title: 'Gemini Omni vs Veo 3.1, Kling 4.0 y Seedance 2.5: ¿cuál gana?' }
+        ]
+      },
+      {
+        id: 'v4', title: 'Vídeos de 30 segundos con Kling',
+        videos: [
+          { id: 'BpexGkDrzn4', title: 'Cómo hacer vídeos con IA de 30 segundos paso a paso (Kling 4.0)' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'marketing', emoji: '📣', level: 'Intermedio', title: 'Anuncios, influencers y presentaciones con IA',
+    desc: 'Vídeos de producto, anuncios, influencers y avatares con IA para vender más.',
+    modules: [
+      {
+        id: 'm1', title: 'Vídeo de producto y anuncios',
+        videos: [
+          { id: '3Vegf524ibs', title: 'Cómo hacer el vídeo de tu producto con IA (sin grabar)' },
+          { id: 'u-UAU8P-w10', title: 'Cómo crear anuncios con IA para tu negocio (paso a paso)' }
+        ]
+      },
+      {
+        id: 'm2', title: 'Influencers y avatares con IA',
+        videos: [
+          { id: 'rQjaEciKElA', title: 'Cómo crear un influencer con IA en 3 pasos (sin cámara)' },
+          { id: 'JHcJWzERWJM', title: 'Crea avatares con HeyGen' }
+        ]
+      },
+      {
+        id: 'm3', title: 'Presentaciones que venden',
         videos: [
           { id: 'dpoA2JEQeqw', title: 'Crea presentaciones con Gamma' }
         ]
@@ -123,33 +137,47 @@ window.ESIA_COURSES = [
     ]
   },
   {
-    id: 'contenido', emoji: '🎬', level: 'Intermedio', title: 'Crea imágenes, vídeos y anuncios con IA',
-    desc: 'Vídeos de producto, anuncios, influencers con IA y los mejores modelos de vídeo, sin cámara.',
+    id: 'spark', emoji: '🔷', level: 'Intermedio', title: 'Gemini Spark: tu agente que trabaja por ti',
+    desc: 'Configura Gemini Spark, enséñale y deja que trabaje mientras duermes.',
     modules: [
       {
-        id: 'c1', title: 'Vídeo de producto y anuncios',
+        id: 'p1', title: 'Empieza con Gemini Spark',
         videos: [
-          { id: '3Vegf524ibs', title: 'Cómo hacer el vídeo de tu producto con IA (sin grabar)' },
-          { id: 'u-UAU8P-w10', title: 'Cómo crear anuncios con IA para tu negocio (paso a paso)' }
+          { id: 'NTf2-xKYqtM', title: 'Qué es Gemini Spark' },
+          { id: 'BUJVUaMofYQ', title: 'Cómo configurar Gemini Spark' }
         ]
       },
       {
-        id: 'c2', title: 'Tu influencer con IA',
+        id: 'p2', title: 'Instrucciones y skills',
         videos: [
-          { id: 'rQjaEciKElA', title: 'Cómo crear un influencer con IA en 3 pasos (sin cámara)' }
+          { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a Gemini Spark' },
+          { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en Gemini Spark' }
         ]
       },
       {
-        id: 'c3', title: 'Higgsfield Katana',
+        id: 'p3', title: 'Que trabaje mientras duermes',
         videos: [
-          { id: 'g1dEqF_FAf8', title: 'Qué es Higgsfield Katana y cómo usarlo' }
+          { id: 'aIWWm1rwXd4', title: 'Cómo hacer que Gemini Spark trabaje mientras duermes' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'negocio', emoji: '💰', level: 'Intermedio', title: 'IA para tu negocio y tus redes',
+    desc: 'Contenido para redes y tareas con IA para ahorrar tiempo y ganar dinero.',
+    modules: [
+      {
+        id: 'n1', title: 'Contenido para redes',
+        videos: [
+          { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini Spark para crear contenido' },
+          { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' }
         ]
       },
       {
-        id: 'c4', title: 'Modelos de vídeo: elige el mejor',
+        id: 'n2', title: 'Aplica la IA a tu negocio',
         videos: [
-          { id: '5eKLC5kDNxk', title: 'Gemini Omni vs Veo 3.1, Kling 4.0 y Seedance 2.5: ¿cuál gana?' },
-          { id: 'BpexGkDrzn4', title: 'Cómo hacer vídeos con IA de 30 segundos paso a paso (Kling 4.0)' }
+          { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
+          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' }
         ]
       }
     ]
