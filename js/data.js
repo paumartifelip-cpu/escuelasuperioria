@@ -185,7 +185,8 @@ window.ESIA_COURSES = [
       {
         id: 'n3', title: 'Consigue clientes',
         videos: [
-          { id: '9RpTC1mE2mw', title: 'Cómo extraer clientes de Google Maps con Apify (paso a paso)' }
+          { id: '9RpTC1mE2mw', title: 'Cómo extraer clientes de Google Maps con Apify (paso a paso)' },
+          { id: 'HFnGVXsoNe0', title: 'Cómo aparecer en el nuevo Google con IA (2026)' }
         ]
       }
     ]
