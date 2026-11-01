@@ -36,7 +36,7 @@
     if (!code) { current = PRICE; render(); msg.hidden = true; return; }
     if (Object.prototype.hasOwnProperty.call(COUPONS, code)) {
       current = COUPONS[code]; render(code);
-      say(msg, 'Cupón aplicado: pagas ' + eur(current) + '.', 'ok');
+      say(msg, 'Cupón aplicado: pagas ' + eur(current) + '. IMPORTANTE: vuelve a poner este mismo código (' + code + ') en la página de pago de Stripe para que se aplique el descuento.', 'ok');
     } else {
       current = PRICE; render();
       say(msg, 'Este código no es válido.', 'err');
