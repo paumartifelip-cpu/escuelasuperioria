@@ -98,6 +98,28 @@ window.ESIA_COURSES = [
     ]
   },
   {
+    id: 'contenido', emoji: '🎬', level: 'Intermedio', title: 'Crea imágenes, vídeos y anuncios con IA',
+    desc: 'Vídeos de producto, anuncios, influencers con IA y los mejores modelos de vídeo, sin cámara.',
+    modules: [
+      {
+        id: 'c1', title: 'Vídeo de producto y anuncios',
+        videos: [
+          { id: '3Vegf524ibs', title: 'Cómo hacer el vídeo de tu producto con IA (sin grabar)' },
+          { id: 'u-UAU8P-w10', title: 'Cómo crear anuncios con IA para tu negocio (paso a paso)' },
+          { id: 'rQjaEciKElA', title: 'Cómo crear un influencer con IA en 3 pasos (sin cámara)' }
+        ]
+      },
+      {
+        id: 'c2', title: 'Herramientas y modelos de vídeo',
+        videos: [
+          { id: 'g1dEqF_FAf8', title: 'Qué es Higgsfield Katana y cómo usarlo' },
+          { id: '5eKLC5kDNxk', title: 'Gemini Omni vs Veo 3.1, Kling 4.0 y Seedance 2.5: ¿cuál gana?' },
+          { id: 'BpexGkDrzn4', title: 'Cómo hacer vídeos con IA de 30 segundos paso a paso (Kling 4.0)' }
+        ]
+      }
+    ]
+  },
+  {
     id: 'antigravity', emoji: '💻', level: 'Avanzado', title: 'Crea tus propias apps con Google Antigravity',
     desc: '10 sesiones para construir y publicar apps desde cero, sin depender de nadie.',
     modules: [
