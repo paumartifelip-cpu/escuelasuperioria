@@ -4,7 +4,7 @@
   'use strict';
 
   var PRICE = 290;                 // euros
-  var COUPONS = { 'ESIA990': 9.9 };// código (mayúsculas) -> precio final en euros
+  var COUPONS = { 'ESIA7K4QX9M2': 9.99 };// código (mayúsculas) -> precio final en euros
   var PAY_LINKS = {
     stripe: 'https://buy.stripe.com/aFa28t3N47iZglCcRT5Ne0J',
     bizum: 'https://buy.stripe.com/aFa28t3N47iZglCcRT5Ne0J'
