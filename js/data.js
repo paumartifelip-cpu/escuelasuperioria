@@ -187,6 +187,12 @@ window.ESIA_COURSES = [
     desc: '10 sesiones para construir y publicar apps desde cero, sin depender de nadie.',
     modules: [
       {
+        id: 'a0', title: 'Qué es el vibe coding',
+        videos: [
+          { id: 'vbCUu1Fb5Uk', title: '¿Qué es el vibe coding? Explicado para principiantes' }
+        ]
+      },
+      {
         id: 'a1', title: 'Fundamentos',
         videos: [
           { id: 'ApMWsOuHjPk', title: 'Sesión 1 · Introducción a Antigravity' },
