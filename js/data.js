@@ -23,7 +23,8 @@ window.ESIA_COURSES = [
       {
         id: 'b3', title: 'Aprende a pedir bien',
         videos: [
-          { id: 'XlvR6JTRuKo', title: 'Fundamentos del prompt engineering' }
+          { id: 'XlvR6JTRuKo', title: 'Fundamentos del prompt engineering' },
+          { id: '-h0PIjHWvbk', title: 'Los 5 mejores prompts en Google Gemini' }
         ]
       }
     ]
