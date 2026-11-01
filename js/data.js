@@ -15,16 +15,26 @@ window.ESIA_COURSES = [
         ]
       },
       {
-        id: 'b1b', title: 'Habla con la IA y evita errores',
+        id: 'b2', title: 'Evita los errores de la IA',
         videos: [
-          { id: '2braETkQGQ8', title: 'Por qué la inteligencia artificial miente (y cómo evitarlo)' },
+          { id: '2braETkQGQ8', title: 'Por qué la inteligencia artificial miente (y cómo evitarlo)' }
+        ]
+      },
+      {
+        id: 'b3', title: 'Aprende a pedir bien',
+        videos: [
           { id: 'XlvR6JTRuKo', title: 'Fundamentos del prompt engineering' }
         ]
       },
       {
-        id: 'b2', title: 'Asistentes e investigación',
+        id: 'b4', title: 'Crea tus asistentes',
         videos: [
-          { id: 'fvG6tuNeAdI', title: 'Asistentes de IA y Gems' },
+          { id: 'fvG6tuNeAdI', title: 'Asistentes de IA y Gems' }
+        ]
+      },
+      {
+        id: 'b5', title: 'Investiga y estudia con IA',
+        videos: [
           { id: 'pVxRXpbw1I0', title: 'Investigación en NotebookLM' }
         ]
       }
@@ -35,16 +45,21 @@ window.ESIA_COURSES = [
     desc: 'Domina Gemini Spark y las herramientas de Google para automatizar tu trabajo y tu negocio.',
     modules: [
       {
-        id: 'g1', title: 'Conoce tus herramientas',
+        id: 'g1', title: 'Conoce las herramientas de Google',
         videos: [
           { id: 'F3W5Twru-OQ', title: 'Google AI Studio: las IA de Google en un lugar' },
-          { id: 'UGXuPonOrTQ', title: 'Nuevo Google Gemini Notebook: todo lo nuevo' },
+          { id: 'UGXuPonOrTQ', title: 'Nuevo Google Gemini Notebook: todo lo nuevo' }
+        ]
+      },
+      {
+        id: 'g2', title: 'Empieza con Gemini Spark',
+        videos: [
           { id: 'NTf2-xKYqtM', title: 'Qué es Gemini Spark' },
           { id: 'BUJVUaMofYQ', title: 'Cómo configurar Gemini Spark' }
         ]
       },
       {
-        id: 'g2', title: 'Enseña a la IA a trabajar contigo',
+        id: 'g3', title: 'Enseña a Spark a trabajar contigo',
         videos: [
           { id: '8DjbIaaicTs', title: 'Cómo dar instrucciones a Gemini Spark' },
           { id: 'Yzm6nXlBt78', title: 'Cómo crear skills en Gemini Spark' },
@@ -52,17 +67,22 @@ window.ESIA_COURSES = [
         ]
       },
       {
-        id: 'g3', title: 'Crea contenido con IA',
+        id: 'g4', title: 'Imágenes y diseño con Google',
         videos: [
           { id: 'zIsRjcE0mrA', title: 'Google Nano Banana: modelos y trucos' },
           { id: 'xC7ZL1qYMic', title: 'Google Pics: 5 cosas que hace y ni Canva puede' },
-          { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con Gemini Spark mediante MCP' },
+          { id: 'fH6AXOtvR-M', title: 'Cómo conectar Canva con Gemini Spark mediante MCP' }
+        ]
+      },
+      {
+        id: 'g5', title: 'Contenido para redes',
+        videos: [
           { id: 'AE9CyEzB6gM', title: 'Diez tareas de Gemini Spark para crear contenido' },
           { id: 'eY2IUEmDNo8', title: 'Cómo crear 30 publicaciones para redes con IA' }
         ]
       },
       {
-        id: 'g4', title: 'Aplica la IA a tu negocio',
+        id: 'g6', title: 'Aplica la IA a tu negocio',
         videos: [
           { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
           { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' }
@@ -82,15 +102,20 @@ window.ESIA_COURSES = [
         ]
       },
       {
-        id: 'v2', title: 'Avatares y vídeo',
+        id: 'v2', title: 'Avatares',
         videos: [
-          { id: 'JHcJWzERWJM', title: 'Crea avatares con HeyGen' },
+          { id: 'JHcJWzERWJM', title: 'Crea avatares con HeyGen' }
+        ]
+      },
+      {
+        id: 'v3', title: 'Vídeo con las herramientas de Google',
+        videos: [
           { id: 'QO3MIleJ0Yo', title: 'Aprende a usar Flow con Veo 3' },
           { id: 'XTGB8muRWFM', title: 'Google Vids, editor de vídeo: crea vídeos para tu negocio' }
         ]
       },
       {
-        id: 'v3', title: 'Presentaciones',
+        id: 'v4', title: 'Presentaciones',
         videos: [
           { id: 'dpoA2JEQeqw', title: 'Crea presentaciones con Gamma' }
         ]
@@ -105,14 +130,24 @@ window.ESIA_COURSES = [
         id: 'c1', title: 'Vídeo de producto y anuncios',
         videos: [
           { id: '3Vegf524ibs', title: 'Cómo hacer el vídeo de tu producto con IA (sin grabar)' },
-          { id: 'u-UAU8P-w10', title: 'Cómo crear anuncios con IA para tu negocio (paso a paso)' },
+          { id: 'u-UAU8P-w10', title: 'Cómo crear anuncios con IA para tu negocio (paso a paso)' }
+        ]
+      },
+      {
+        id: 'c2', title: 'Tu influencer con IA',
+        videos: [
           { id: 'rQjaEciKElA', title: 'Cómo crear un influencer con IA en 3 pasos (sin cámara)' }
         ]
       },
       {
-        id: 'c2', title: 'Herramientas y modelos de vídeo',
+        id: 'c3', title: 'Higgsfield Katana',
         videos: [
-          { id: 'g1dEqF_FAf8', title: 'Qué es Higgsfield Katana y cómo usarlo' },
+          { id: 'g1dEqF_FAf8', title: 'Qué es Higgsfield Katana y cómo usarlo' }
+        ]
+      },
+      {
+        id: 'c4', title: 'Modelos de vídeo: elige el mejor',
+        videos: [
           { id: '5eKLC5kDNxk', title: 'Gemini Omni vs Veo 3.1, Kling 4.0 y Seedance 2.5: ¿cuál gana?' },
           { id: 'BpexGkDrzn4', title: 'Cómo hacer vídeos con IA de 30 segundos paso a paso (Kling 4.0)' }
         ]
@@ -127,23 +162,33 @@ window.ESIA_COURSES = [
         id: 'a1', title: 'Fundamentos',
         videos: [
           { id: 'ApMWsOuHjPk', title: 'Sesión 1 · Introducción a Antigravity' },
-          { id: 'bvEe4b2sBEk', title: 'Sesión 2 · Entiende los agentes en 5 minutos' },
-          { id: 'ArlIVy6kWaY', title: 'Sesión 3 · Conecta tu agente al mundo con MCP' }
+          { id: 'bvEe4b2sBEk', title: 'Sesión 2 · Entiende los agentes en 5 minutos' }
         ]
       },
       {
-        id: 'a2', title: 'Construye tus apps',
+        id: 'a2', title: 'Conecta y diseña',
         videos: [
-          { id: 'xZDS0XZCaPY', title: 'Sesión 4 · Crea interfaces con Google Stitch' },
+          { id: 'ArlIVy6kWaY', title: 'Sesión 3 · Conecta tu agente al mundo con MCP' },
+          { id: 'xZDS0XZCaPY', title: 'Sesión 4 · Crea interfaces con Google Stitch' }
+        ]
+      },
+      {
+        id: 'a3', title: 'Apps con IA dentro',
+        videos: [
           { id: 'Vr1ickiFuCY', title: 'Sesión 5 · Trabaja con 5 apps a la vez' },
           { id: 'yFbMqe4qcQY', title: 'Sesión 6 · Mete IA dentro de tus aplicaciones' }
         ]
       },
       {
-        id: 'a3', title: 'Publica y escala',
+        id: 'a4', title: 'Código y base de datos',
         videos: [
           { id: 'MJfgHc9zGwM', title: 'Sesión 7 · Sube tus apps a GitHub' },
-          { id: 'LitFHXjgpE0', title: 'Sesión 8 · Crea una app full stack con Supabase' },
+          { id: 'LitFHXjgpE0', title: 'Sesión 8 · Crea una app full stack con Supabase' }
+        ]
+      },
+      {
+        id: 'a5', title: 'Publica y organiza',
+        videos: [
           { id: 'sc5WCMAEVC8', title: 'Sesión 9 · Publica tu web en internet' },
           { id: 'qEJ1Z-mY3Qc', title: 'Sesión 10 · Organiza tu ordenador con Antigravity' }
         ]
