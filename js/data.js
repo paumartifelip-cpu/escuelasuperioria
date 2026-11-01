@@ -179,7 +179,8 @@ window.ESIA_COURSES = [
         id: 'n2', title: 'Aplica la IA a tu negocio',
         videos: [
           { id: 'xUtWRFn8J2A', title: 'Gemini en Google Forms: crea formularios en segundos' },
-          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' }
+          { id: 'L84s3QzqAJQ', title: 'Diez tareas de Gemini Spark para ayudarte a ganar dinero' },
+          { id: 'ogNwbm6NFRk', title: 'Convierte una lista aburrida en una máquina que trabaja por ti (Excel + IA)' }
         ]
       },
       {
