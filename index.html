@@ -33,6 +33,15 @@
   <main class="intro">
     <button id="theme-btn" class="switch intro-theme" type="button" role="switch" aria-checked="false" aria-label="Modo oscuro"><span class="switch-knob" aria-hidden="true"></span></button>
 
+    <form id="top-coupon" class="top-coupon" novalidate>
+      <label for="top-code">¿Tienes un cupón de descuento?</label>
+      <div class="co-coupon-row">
+        <input id="top-code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Escribe tu código">
+        <button type="submit" class="btn btn-primary top-coupon-btn">Aplicar y pagar</button>
+      </div>
+      <p id="top-msg" class="co-msg" role="status" hidden></p>
+    </form>
+
     <section class="intro-card" aria-labelledby="intro-title">
       <div class="intro-aside">
         <div class="brand">
